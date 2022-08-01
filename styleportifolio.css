@@ -1,7 +1,15 @@
+
+html {
+  scroll-behavior: smooth;
+}
 .home {
     position: relative;
     height: 100vh;
-    background-image: url("https://img.wallpapersafari.com/desktop/1366/768/66/7/SabMAR.jpg");
+    background-image: url("https://media.istockphoto.com/photos/dark-blue-metal-pattern-background-picture-id1161683700?k=6&m=1161683700&s=170667a&w=0&h=uOMvVJYJ1-y6HvoVGq0cjqBAnLbDC2U7JOku5cv8Jxw=");
+    background-repeat: no-repeat;
+    background-size:100% 100vh;
+}
+.home img{
 
 }
 
@@ -10,6 +18,10 @@
     height: 100vh;
    background-color: black  ;
 
+}
+.about-img{
+  width: 378px;
+  height: 360px;
 }
 
 .name {
@@ -49,11 +61,52 @@ span {
     position: relative;
     height: 100vh;
    background-color: black  ;
+   padding-top: 80px; 
 }
 .contact{
     position: relative;
     height: 100vh;
    background-color: black  ;
+   padding-top: 80px;
+}
+.foot{
+  background-color: black  ;
+  color: #fff;
+}
+
+/* @media(min-width:0px)and(max-width:486px) {
+  .about{
+    height: 100vh;
+  }
+  
+} */
+
+@media(max-width:767px) {
+  .about{
+    height: 130vh;
+  }
+  .resume{
+    height: 210vh;
+  }
+}
+
+@media(min-width:768px) and (max-width:991px) {
+  .about{
+    height: 135vh;
+  }
+  .resume{
+    height: 140vh;
+  }
+}
+
+@media(min-width:992px) {
+  .resume{
+    height: 130vh;
+  }
+}
+
+@media(min-width:1200px) {
+  
 }
 
 
