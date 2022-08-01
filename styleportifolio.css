@@ -53,6 +53,10 @@ span {
     z-index: 1030;
 }
 
+.nav-element:hover{
+  background-color: red;
+}
+
 .parent-about{
     display: grid;
     grid-template-columns: auto auto auto;
@@ -68,6 +72,14 @@ span {
     height: 100vh;
    background-color: black  ;
    padding-top: 80px;
+}
+.contact-input{
+width: 150%;
+margin-left: 50%;
+margin-top: 50px
+}
+.contact-button{
+  margin-left: 110%;
 }
 .foot{
   background-color: black  ;
