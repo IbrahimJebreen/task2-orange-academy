@@ -9,9 +9,6 @@ html {
     background-repeat: no-repeat;
     background-size:100% 100vh;
 }
-.home img{
-
-}
 
 .about {
     position: relative;
@@ -93,12 +90,15 @@ margin-top: 50px
   
 } */
 
-@media(max-width:767px) {
+
+
+
+@media(max-width:768px) {
   .about{
-    height: 130vh;
+    height: 170vh;
   }
   .resume{
-    height: 210vh;
+    height: 240vh;
   }
 }
 
@@ -107,19 +107,20 @@ margin-top: 50px
     height: 135vh;
   }
   .resume{
-    height: 140vh;
+    height: 130vh;
   }
 }
 
 @media(min-width:992px) {
   .resume{
-    height: 130vh;
+    height: 110vh;
   }
 }
 
 @media(min-width:1200px) {
   
 }
+
 
 
 /* Resume */
